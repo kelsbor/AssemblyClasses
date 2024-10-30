@@ -110,7 +110,7 @@ saidec PROC
               ret
 saidec ENDP
 main PROC
-              mov  ax, @DATA
+              mov  ax, @DATA              ; Inicializa Segmento de dados
               mov  ds, ax
     
     ; Chama os procedimentos em ordem.
